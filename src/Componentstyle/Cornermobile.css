@@ -1,0 +1,91 @@
+img {
+  height: 31vw;
+  width: 57vw;
+}
+
+#img1 {
+  position: absolute;
+  z-index: 3;
+}
+#img2 {
+  margin-right: -7vw;
+  margin-top: 5vw;
+  position: absolute;
+  z-index: 2;
+}
+#img3 {
+  margin-right: -14vw;
+  margin-top: 10vw;
+  position: absolute;
+  z-index: 1;
+}
+#main-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+  display: flex;
+
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.text-and-image {
+  width: 62%;
+  height: 48vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+  justify-content: flex-end;
+  z-index: 0;
+}
+.strip {
+  height: 24vw;
+  width: 40vw;
+}
+.getstarted-btn {
+  height: 55%;
+  width: 37%;
+  font-size: 1.8vw;
+  border-radius: 0.4vmax;
+  color: whitesmoke;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-and-image > div {
+  z-index: 1;
+}
+
+.text-and-image > h1 {
+  font-size: 4.3vw;
+}
+
+.text-and-image > p {
+  font-size: 1.8vw;
+  margin-bottom: 3%;
+}
+.pause-btn {
+  height: 3.5vw;
+  width: 3.5vw;
+}
+
+.pause-btn-and-text {
+  display: "flex";
+  align-items: center;
+  height: 57.5%;
+  font-size: 1.5vw;
+}
+
+.pause-btn-and-text > img {
+  margin-right: 10px;
+  margin-left: 10px;
+}

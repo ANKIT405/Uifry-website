@@ -1,0 +1,44 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 12%;
+}
+
+.mobile-phone {
+  width: 50%;
+}
+
+.ringmobile {
+  width: 74%;
+}
+
+.some-text > h4 {
+  margin-bottom: 1.5%;
+  font-family: Condensed;
+  font-size: 1.2vw;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+.some-text > h1 {
+  font-size: 3vw;
+}
+
+.some-text > p {
+  font-size: 1.3vw;
+}
+.some-text > h6 {
+  font-size: 1.3vw;
+  font-weight: 400;
+  font-variant: small-caps;
+  color: rgb(247, 84, 84);
+}
+
+.star-logo {
+  height: 3.5vw;
+  width: 3.5vw;
+}

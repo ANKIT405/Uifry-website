@@ -1,0 +1,56 @@
+.navbar{
+    height: 6vmax;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-bar{
+    height: 60%;
+    width: 75%;
+border: 0.001px solid black;
+    display: flex;
+    align-items: center;
+    
+  
+}
+.uifry-logo{
+    height: 4vmax;
+    width: 4.5vmax;
+}
+
+.main-bar>h1{
+    margin-left: -0.7vmax;
+    font-size: 2vmax;
+}
+
+.navigation-div{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-text{
+    width: 60%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
+    flex-wrap: nowrap;
+}
+
+.download-btn{
+    width: 27%;
+    height: 100%;
+    font-size: 1.8vw;
+    border-radius: 0.4vmax;
+    color: whitesmoke;
+    background: #000;
+}
+
+
+
+
