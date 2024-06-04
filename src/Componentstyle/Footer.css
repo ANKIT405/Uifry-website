@@ -23,6 +23,15 @@
   height: 4vmax;
   width: 4.5vmax;
 }
+.section-5>button{
+    width: 103%;
+    font-size: 1.8vw;
+    border-radius: 0.4vmax;
+    color: whitesmoke;
+    background: #000;
+    text-align: center;
+}
+
 
 .copyrignt-message {
   display: flex;
